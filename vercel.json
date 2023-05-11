@@ -1,9 +1,9 @@
 {
     "builds": [
-      { "src": "home/wsgi.py", "use": "@vercel/python" }
+      { "src": "todoList/wsgi.py", "use": "@vercel/python" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "home/wsgi.py" }
+      { "src": "/(.*)", "dest": "todoList/wsgi.py" }
     ]
 }
   
